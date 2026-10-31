@@ -35,8 +35,4 @@ Version 1.0 includes:
 ## Documentation
 
 - [Eisenhower Matrix](docs/eisenhower-matrix.pdf)
-- [System Diagram](docs/system-diagram.png) (source file: `docs/system-diagram.drawio`)
-
-## How to Run
-
-Coming soon, once the code is written.
+- [System Diagram](docs/system-diagram.png) (source file: `docs/system-diagram.drawio` [I didn't know if I had to submit the source file or a png of the system diagram so here it is])
