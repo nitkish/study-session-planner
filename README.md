@@ -12,7 +12,7 @@ Version 1.0 includes:
 
 - Add a course with its exam date (with date validation)
 - Enter the hours available to study per day
-- Generate a day-by-day schedule that gives more time to closer exams
+- Generate a schedule that gives more time to closer exams (varies by day)
 - View courses sorted by exam date
 - Print the schedule in the terminal
 
