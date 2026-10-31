@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pwd--Z0xNuaK2f4-NlLE">
+    <mxGraphModel dx="2475" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NMll64xBOykE9F-mJM95-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="90.18" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Main menu" vertex="1">
+          <mxGeometry height="60" width="120" x="230.18" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="User input" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-14" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.983;exitY=0.767;exitDx=0;exitDy=0;exitPerimeter=0;" target="NMll64xBOykE9F-mJM95-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200.18" y="20" as="sourcePoint" />
+            <mxPoint x="250.18" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-15" connectable="0" parent="NMll64xBOykE9F-mJM95-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="program launches" vertex="1">
+          <mxGeometry relative="1" x="-0.0385" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-16" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.067;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90.00430377091305" y="230.52708868726063" as="sourcePoint" />
+            <mxPoint x="230.17999999999995" y="232.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-17" connectable="0" parent="NMll64xBOykE9F-mJM95-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="menu choice" vertex="1">
+          <mxGeometry relative="1" x="-0.0385" y="-1" as="geometry">
+            <mxPoint x="-7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-33" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Choice selection" vertex="1">
+          <mxGeometry height="80" width="170" x="210.18" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-34" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-2" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="NMll64xBOykE9F-mJM95-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="295.18" y="270" as="sourcePoint" />
+            <mxPoint x="420.1756962290869" y="271.48291131273936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-35" connectable="0" parent="NMll64xBOykE9F-mJM95-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Choice" vertex="1">
+          <mxGeometry relative="1" x="-0.0385" y="-1" as="geometry">
+            <mxPoint x="-7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-37" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-54" connectable="0" parent="NMll64xBOykE9F-mJM95-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Add exam" vertex="1">
+          <mxGeometry relative="1" x="-0.1802" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-39" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Enter exam name and date" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Valid date?" vertex="1">
+          <mxGeometry height="80" width="170" x="425" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-55" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="509.5" y="280" as="sourcePoint" />
+            <mxPoint x="509.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-60" connectable="0" parent="NMll64xBOykE9F-mJM95-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="name + date entered" vertex="1">
+          <mxGeometry relative="1" x="-0.1733" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-61" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Error message" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-63" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-61" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="420" as="sourcePoint" />
+            <mxPoint x="510" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-64" connectable="0" parent="NMll64xBOykE9F-mJM95-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Invalid Date" vertex="1">
+          <mxGeometry relative="1" x="-0.3747" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-65" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="420" as="sourcePoint" />
+            <mxPoint x="730" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-67" connectable="0" parent="NMll64xBOykE9F-mJM95-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Try again" vertex="1">
+          <mxGeometry relative="1" x="-0.0539" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-68" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-40" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.21;exitY=0.808;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="575" as="sourcePoint" />
+            <mxPoint x="420" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-70" connectable="0" parent="NMll64xBOykE9F-mJM95-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="name + date" vertex="1">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bn2F7ZOEDFFO1NvZ1Rpp-1" connectable="0" parent="NMll64xBOykE9F-mJM95-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.4794" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Course class" vertex="1">
+          <mxGeometry height="60" width="120" x="350.18" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-71" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="ArrayList of courses" vertex="1">
+          <mxGeometry height="80" width="139.82" x="340.27" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-73" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-69" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.499;exitY=1.122;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="NMll64xBOykE9F-mJM95-71" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-74" connectable="0" parent="NMll64xBOykE9F-mJM95-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="new Course object" vertex="1">
+          <mxGeometry relative="1" x="-0.2741" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-75" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;endWidth=22;endSize=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7058" as="geometry">
+            <Array as="points">
+              <mxPoint x="805.14" y="630" />
+              <mxPoint x="805.14" y="200" />
+            </Array>
+            <mxPoint x="470.18" y="630" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-77" connectable="0" parent="NMll64xBOykE9F-mJM95-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="return to Menu" vertex="1">
+          <mxGeometry relative="1" x="-0.8394" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sort by exam date" vertex="1">
+          <mxGeometry height="60" width="120" x="-29.819999999999993" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-79" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-33" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;width=11;startSize=6;endSize=6;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-80" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="430" as="sourcePoint" />
+            <mxPoint x="160" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-81" connectable="0" parent="NMll64xBOykE9F-mJM95-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Close" vertex="1">
+          <mxGeometry relative="1" x="0.2366" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-80" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Close" vertex="1">
+          <mxGeometry height="80" width="120" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-83" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.215;exitY=0.725;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.026;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" target="NMll64xBOykE9F-mJM95-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="286.55" y="420" as="sourcePoint" />
+            <mxPoint x="129.99999999999983" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-84" connectable="0" parent="NMll64xBOykE9F-mJM95-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="View Courses" vertex="1">
+          <mxGeometry relative="1" x="0.1097" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-85" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-78" value="list of Course objects">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-86" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Course List printed" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-87" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-78" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="NMll64xBOykE9F-mJM95-86" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="15" y="595" as="sourcePoint" />
+            <mxPoint x="65" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-88" connectable="0" parent="NMll64xBOykE9F-mJM95-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Courses by exam date" vertex="1">
+          <mxGeometry relative="1" x="-0.2541" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-89" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.006;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-2" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6055" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="734.66" />
+              <mxPoint x="990" y="740" />
+              <mxPoint x="990" y="110" />
+              <mxPoint x="290" y="90" />
+            </Array>
+            <mxPoint x="-49.2800000000002" y="659.9999999999999" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-90" connectable="0" parent="NMll64xBOykE9F-mJM95-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="return to Menu" vertex="1">
+          <mxGeometry relative="1" x="-0.8515" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-91" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-33" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.324;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-200" y="160" as="sourcePoint" />
+            <mxPoint x="-90" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-96" connectable="0" parent="NMll64xBOykE9F-mJM95-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Generate Schedule" vertex="1">
+          <mxGeometry relative="1" x="0.1683" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-92" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Enter hours per day" vertex="1">
+          <mxGeometry height="60" width="120" x="-200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Planner Class" vertex="1">
+          <mxGeometry height="60" width="120" x="-210" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-94" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-93" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-150" y="300" as="sourcePoint" />
+            <mxPoint x="-140" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-97" connectable="0" parent="NMll64xBOykE9F-mJM95-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="hours per day" vertex="1">
+          <mxGeometry relative="1" x="-0.2181" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-98" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-71" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.499;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.8538" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="840" />
+              <mxPoint x="-220" y="840" />
+            </Array>
+            <mxPoint x="430" y="700" as="sourcePoint" />
+            <mxPoint x="-210" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-99" connectable="0" parent="NMll64xBOykE9F-mJM95-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="list of Course objects" vertex="1">
+          <mxGeometry relative="1" x="-0.2253" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="StudySession Class" vertex="1">
+          <mxGeometry height="60" width="120" x="-510" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-101" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-93" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="NMll64xBOykE9F-mJM95-100" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-270" y="380" as="sourcePoint" />
+            <mxPoint x="-220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-106" connectable="0" parent="NMll64xBOykE9F-mJM95-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="courses, dates, hours" vertex="1">
+          <mxGeometry relative="1" x="-0.3103" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-107" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-460" y="440" as="sourcePoint" />
+            <mxPoint x="-460" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-110" connectable="0" parent="NMll64xBOykE9F-mJM95-107" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="list of sessions" vertex="1">
+          <mxGeometry relative="1" x="-0.1284" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-108" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Daily schedule printed" vertex="1">
+          <mxGeometry height="60" width="120" x="-520" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-109" edge="1" parent="1" source="NMll64xBOykE9F-mJM95-108" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="NMll64xBOykE9F-mJM95-2" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6148" as="geometry">
+            <Array as="points">
+              <mxPoint x="-570" y="160" />
+            </Array>
+            <mxPoint x="-540" y="575" as="sourcePoint" />
+            <mxPoint x="110" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMll64xBOykE9F-mJM95-111" connectable="0" parent="NMll64xBOykE9F-mJM95-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Return to menu" vertex="1">
+          <mxGeometry relative="1" x="0.1891" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
