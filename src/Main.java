@@ -54,7 +54,32 @@ public class Main {
 
     //private methods for the functions, they haven't been made yet.
     private static void addCourse(Scanner scanner, List<Course> courses) {
-        System.out.println("ADD NOT BUILT");
+        System.out.print("Type the course name: ");
+        String name = scanner.nextLine().trim(); //using scanners to get the data from the user, here is name
+        if (name.isEmpty()) {
+            System.out.println("Course name can't be empty.");
+            return;
+        }
+        LocalDate examDate = readExamDate(scanner);
+        courses.add(new Course(name, examDate));
+        System.out.println("Added course: " + name);
+    }
+
+    //private class to help with the addCourse class to get the exam date
+    private static LocalDate readExamDate(Scanner scanner) {
+        while (true) {
+            System.out.print("Type in the exam date (YYYY-MM-DD): ");
+            String text = scanner.nextLine().trim(); //scanner for exam date
+            try {
+                LocalDate date = LocalDate.parse(text);
+                if (date.isAfter(LocalDate.now())) {
+                    return date;
+                }
+                System.out.println("The exam date must be in the future."); //cancels out exams set in the past, because why would you study for an exam that already passed.
+            } catch (DateTimeParseException e) {
+                System.out.println("That isn't a valid date. Use YYYY-MM-DD, like 2026-12-15.");
+            }
+        }
     }
 
     private static void viewCourses(List<Course> courses) {
