@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -81,9 +80,32 @@ public class Main {
             }
         }
     }
-
+    //viewCourses shows all the course exams upcoming with sortByExamDate private method
     private static void viewCourses(List<Course> courses) {
-        System.out.println("VIEW NOT BUILT");
+        if (courses.isEmpty()) {
+            System.out.println("No courses yet. Choose 1 to add one.");
+            return;
+        }
+        sortByExamDate(courses);
+        System.out.println("Your courses (soonest exam first):");
+        for (int i = 0; i < courses.size(); i++) {
+            System.out.println((i + 1) + ". " + courses.get(i));
+        }
+    }
+
+    //sortByExamDate makes the exams viewable from earliest to latest.
+    private static void sortByExamDate(List<Course> courses) {
+        for (int i = 0; i < courses.size() - 1; i++) {
+            int earliest = i;
+            for (int j = i + 1; j < courses.size(); j++) {
+                if (courses.get(j).getExamDate().isBefore(courses.get(earliest).getExamDate())) {
+                    earliest = j;
+                }
+            }
+            Course current = courses.get(i);
+            courses.set(i, courses.get(earliest));
+            courses.set(earliest, current);
+        }
     }
 
     private static void generateSchedule(Scanner scanner, List<Course> courses) {
