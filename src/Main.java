@@ -108,7 +108,30 @@ public class Main {
         }
     }
 
+    //prints out the schedule
     private static void generateSchedule(Scanner scanner, List<Course> courses) {
-        System.out.println("GENERATE NOT BUILT");
+        if (courses.isEmpty()){
+            System.out.println("Add at least one course first.");
+            return;
+        }
+        double hoursPerDay = readHoursPerDay(scanner);
+        System.out.println("Planning with " + hoursPerDay + " study hours per day...");
+    }
+
+    //keeps on asking the user to type a number between 0 and 24 (inclusive)
+    private static double readHoursPerDay(Scanner scanner) {
+        while (true) {
+            System.out.print("Hours you can study each day (ex. 3 or 2.5): ");
+            String text = scanner.nextLine().trim();
+            try {
+                double hours = Double.parseDouble(text);
+                if (hours > 0 && hours <= 24) {
+                    return hours;
+                }
+                System.out.println("Enter a number greater than 0 and at most 24.");
+            } catch (NumberFormatException e) {
+                System.out.println("That isn't a number, try again.");
+            }
+        }
     }
 }
