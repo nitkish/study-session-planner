@@ -115,7 +115,11 @@ public class Main {
             return;
         }
         double hoursPerDay = readHoursPerDay(scanner);
-        System.out.println("Planning with " + hoursPerDay + " study hours per day...");
+        Planner planner = new Planner();
+        List<StudySession> sessions = planner.generate(courses, hoursPerDay, LocalDate.now());
+        for (StudySession session : sessions) {
+            System.out.println(session.getDate() + "  " + session);
+        }
     }
 
     //keeps on asking the user to type a number between 0 and 24 (inclusive)
