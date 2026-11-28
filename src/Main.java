@@ -27,10 +27,12 @@ public class Main {
                 } else if (choice.equals("3")) {
                     generateSchedule(scanner, courses);
                 } else if (choice.equals("4")) {
+                    deleteCourse(scanner, courses);
+                } else if (choice.equals("5")) {
                     running = false;
                     System.out.println("Goodbye, good luck on your exams!");
                 } else {
-                    System.out.println("Please enter 1, 2, 3, or 4.");
+                    System.out.println("Please enter 1, 2, 3, 4, or 5.");
                 }
 
             }
@@ -43,11 +45,13 @@ public class Main {
     }
 
     private static void printMenu() {
-        System.out.println();
+        System.out.println("");
+        System.out.println("-------------------------");
         System.out.println("1. Add course");
         System.out.println("2. View courses");
         System.out.println("3. Generate schedule");
-        System.out.println("4. Quit");
+        System.out.println("4. Delete course");
+        System.out.println("5. Quit");
         System.out.print("Choose an option: ");
     }
 
@@ -133,7 +137,7 @@ public class Main {
         }
     }
 
-    //keeps on asking the user to type a number between 0 and 24 (inclusive)
+    // readHoursPerDay keeps on asking the user to type a number between 0 and 24 (inclusive)
     private static double readHoursPerDay(Scanner scanner) {
         while (true) {
             System.out.print("Hours you can study each day (ex. 3 or 2.5): ");
@@ -147,6 +151,28 @@ public class Main {
             } catch (NumberFormatException e) {
                 System.out.println("That isn't a number, try again.");
             }
+        }
+    }
+
+    // deleteCourse shows the course list and removes the course the user picks
+    private static void deleteCourse(Scanner scanner, List<Course> courses) {
+        if (courses.isEmpty()) {
+            System.out.println("No courses to delete.");
+            return;
+        }
+        viewCourses(courses);
+        System.out.print("Enter the number of the course to delete: ");
+        String text = scanner.nextLine().trim();
+        try {
+            int number = Integer.parseInt(text);
+            if (number >= 1 && number <= courses.size()) {
+                Course removed = courses.remove(number-1);
+                System.out.println("Deleted: " + removed.getName());
+            } else {
+                System.out.println("Enter a number between 1 and " + courses.size() + ".");
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("That isn't a number.");
         }
     }
 }
