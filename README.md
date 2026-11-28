@@ -15,22 +15,23 @@ Version 1.0 includes:
 - Generate a schedule that gives more time to closer exams (varies by day)
 - View courses sorted by exam date
 - Print the schedule in the terminal
+- Delete a course (only one exam at a time)
 
 ## Future Plans (V2.0+)
 
 - Save and load courses from a file
 - Tests that are closer for a course / difficulty of course adjusts study time
 - Mark study sessions as completed
-- Edit or delete courses
+- Edit courses
 - Weekly stats on hours studied vs. planned
 
 ## Tech Stack
 
 - **Language:** Java (command-line program)
-- **Libraries:** Java standard library only (`java.time.LocalDate`, `java.util.ArrayList`, `java.util.Scanner`)
+- **Libraries:** Java standard libraries only, consisting of `java.time.LocalDate`, and `java.util.ArrayList`, `java.util.Scanner`.
 - **Data storage:** In memory (an `ArrayList` of `Course` objects) for the MVP
-- **External data sources:** None, since all data is entered by the user
-- **Tools:** Git, GitHub, and a Java IDE
+- **External data sources:** All data is entered by the user
+- **Tools:** Git, GitHub, and IntelliJ
 
 ## Documentation
 
