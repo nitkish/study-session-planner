@@ -27,6 +27,6 @@ public class StudySession {
 
     @Override
     public String toString() {
-        return course.getName() + " - " + String.format("%.2f", hours) + " hrs";
+        return course.getName() + " - " + String.format("%.2f", hours) + " hours";
     }
 }

@@ -14,7 +14,7 @@ public class Main {
         ArrayList<Course> courses = new ArrayList<>();
         boolean running = true;
 
-        System.out.println("Welcome to the Study Session Planner!");
+        System.out.println("\nWelcome to the Study Session Planner!");
 
         try {
             while (running) {
@@ -117,8 +117,19 @@ public class Main {
         double hoursPerDay = readHoursPerDay(scanner);
         Planner planner = new Planner();
         List<StudySession> sessions = planner.generate(courses, hoursPerDay, LocalDate.now());
-        for (StudySession session : sessions) {
-            System.out.println(session.getDate() + "  " + session);
+        printSchedule(sessions);
+    }
+
+    // prints sessions grouped under a heading for each day
+    private static void printSchedule(List<StudySession> sessions) {
+        LocalDate currentDay = null;
+        for (StudySession session : sessions){
+            if (!session.getDate().equals(currentDay)) {
+                currentDay = session.getDate();
+                System.out.println();
+                System.out.println(currentDay.getDayOfWeek() + ", " + currentDay);
+            }
+            System.out.println("  " + session);
         }
     }
 
